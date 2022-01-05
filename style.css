@@ -2,8 +2,8 @@ body {
     
     font-family: 'Yanone Kaffeesatz', sans-serif;;
     margin: 0 12px 0 5px;
-    background-image: url(images/bg.jpg);
-    background-position: contain;;
+    background-image: url(images/latestbg.jpg);
+    background-position:50%;
     
 }
 
@@ -14,17 +14,19 @@ body {
 }
 .half-width {
     width: 50%;
-    padding: 2%;
+    padding: 0 2%;
 }
 .half-width img {
-    width:45%;
-    padding-bottom: 2%;
+    width:50%;
+    
+    
     
 
 }
 
 section {
     display: flex;
+    margin-bottom: 150px;
 }
 
 .hire-me {
@@ -32,11 +34,17 @@ section {
     color: black;
     font-weight: 700;
     background-image:linear-gradient(rgb(136, 197, 247),rgb(12, 197, 243));;;
-    padding: 10px 35px;
+    padding: 10px 30px;
     font-size: 16px;
     font-weight: 600;
     font-family: 'Signika', sans-serif;
     border-radius: 5px;
-    text-align: justify;
+    
     
 }
+p {
+    text-align-last: left;
+    text-align: justify;
+    font-size: 18px;
+}
+
